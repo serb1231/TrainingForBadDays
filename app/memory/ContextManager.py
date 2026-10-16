@@ -6,5 +6,5 @@ class ContextManager:
         self.max_nr_messages = max_nr_messages
 
     def truncate(self, conversation_history : list[dict[str, str]]) -> list[dict[str, str]]:
-        logger.debug(f"truncated and got the entries: {conversation_history[-5:]}")
-        return conversation_history[-5:]
+        logger.debug(f"truncated and got the entries: {conversation_history[-self.max_nr_messages:]}")
+        return conversation_history[-self.max_nr_messages:]

@@ -7,54 +7,34 @@ class ConversationHistories:
         self.dict_lock = Lock()
 
     def create_entry(self, user : str):
-        self.dict_lock.acquire()
-
-        try:
+        with self.dict_lock:
             self.conversations[user] = []
             self.per_user_lock[user] = Lock()
-        finally:
-            self.dict_lock.release()
 
     def append(self, user : str, conversation : dict[str, str]):
-        self.per_user_lock[user].acquire()
-        try:
+        with self.per_user_lock[user]:
             self.conversations[user].append(conversation)
-        finally:
-            self.per_user_lock[user].release()
 
 
     def get_all(self, user: str) -> list[dict[str, str]]:
-        self.per_user_lock[user].acquire()
-        try:
+        with self.per_user_lock[user]:
             conversation = self.conversations[user]
-        finally:
-            self.per_user_lock[user].release()
-
-        return conversation
+            return list(conversation)
 
     def pop(self, user: str):
-        self.per_user_lock[user].acquire()
-        try:
+        with self.dict_lock:
             self.conversations.pop(user)
-        finally:
-            self.per_user_lock[user].release()
+            self.per_user_lock.pop(user)
 
     def verify_existence_and_insert(self, user: str):
-        self.dict_lock.acquire()
-
-        try:
+        with self.dict_lock:
             if user not in self.conversations:
                 self.conversations[user] = []
                 self.per_user_lock[user] = Lock()
-        finally:
-            self.dict_lock.release()
 
     def verify_existence(self, user: str):
-        self.dict_lock.acquire()
-        result = True
-        try:
+        with self.dict_lock:
+            result = True
             if user not in self.conversations:
                 result = False
-        finally:
-            self.dict_lock.release()
-        return result
+            return result

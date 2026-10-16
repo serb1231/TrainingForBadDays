@@ -174,3 +174,53 @@ DEBUG:app.routes.authenticate:received delete history request from: user-123
 INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:11:59] "[35m[1mDELETE /api/v1/chat/history/user-123 HTTP/1.1[0m" 204 -
 DEBUG:app.routes.authenticate:received get history request from: user-123
 INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:12:01] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ContextManager.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ContextManager.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/ConversationHistories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
