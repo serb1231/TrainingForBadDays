@@ -1,0 +1,176 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 16:31:20] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 16:31:47] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:00:45] "[35m[1mPOST /api/v1/chat/completions HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:07:44] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany2?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany?'}, {'role': 'assistant', 'content': 'Mock AI Response: What is the capital of Germany?'}, {'role': 'user', 'content': 'What is the capital of Germany2?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany2?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:07:57] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:08:02] "[35m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/memory/conversation_histories.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany2?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany2?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany2?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:10:03] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany2?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany2?'}, {'role': 'assistant', 'content': 'Mock AI Response: What is the capital of Germany2?'}, {'role': 'user', 'content': 'What is the capital of Germany2?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany2?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:10:09] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:10:15] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -
+DEBUG:app.routes.authenticate:received get history request from: user-124
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:10:18] "[35m[1mGET /api/v1/chat/history/user-124 HTTP/1.1[0m" 500 -
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:10:38] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:10:57] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+INFO:werkzeug: * Detected change in '/home/serb1231/PycharmProjects/FlaskPOC/app/routes/authenticate.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:11:22] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 744-049-817
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany2?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany2?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany2?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:11:35] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received request: session id: user-123; message: What is the capital of Germany2?
+DEBUG:app.memory.ContextManager:truncated and got the entries: [{'role': 'user', 'content': 'What is the capital of Germany2?'}, {'role': 'assistant', 'content': 'Mock AI Response: What is the capital of Germany2?'}, {'role': 'user', 'content': 'What is the capital of Germany2?'}]
+DEBUG:app.AI.AIMock:AI accepted message: What is the capital of Germany2?
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:11:41] "POST /api/v1/chat/completions HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:11:42] "GET /api/v1/chat/history/user-123 HTTP/1.1" 200 -
+DEBUG:app.routes.authenticate:received delete history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:11:59] "[35m[1mDELETE /api/v1/chat/history/user-123 HTTP/1.1[0m" 204 -
+DEBUG:app.routes.authenticate:received get history request from: user-123
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2026 18:12:01] "[31m[1mGET /api/v1/chat/history/user-123 HTTP/1.1[0m" 400 -

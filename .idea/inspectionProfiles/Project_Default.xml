@@ -1,0 +1,152 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pyspark" />
+          <option value="pyspark-stubs" />
+          <option value="alsa-lib" />
+          <option value="aws-c-auth" />
+          <option value="aws-c-cal" />
+          <option value="aws-c-common" />
+          <option value="aws-c-compression" />
+          <option value="aws-c-event-stream" />
+          <option value="aws-c-http" />
+          <option value="aws-c-io" />
+          <option value="aws-c-mqtt" />
+          <option value="aws-c-s3" />
+          <option value="aws-c-sdkutils" />
+          <option value="aws-checksums" />
+          <option value="aws-crt-cpp" />
+          <option value="aws-sdk-cpp" />
+          <option value="azure-core-cpp" />
+          <option value="azure-identity-cpp" />
+          <option value="azure-storage-blobs-cpp" />
+          <option value="azure-storage-common-cpp" />
+          <option value="azure-storage-files-datalake-cpp" />
+          <option value="c-ares" />
+          <option value="ca-certificates" />
+          <option value="font-ttf-inconsolata" />
+          <option value="font-ttf-source-code-pro" />
+          <option value="fontconfig" />
+          <option value="fonts-conda-forge" />
+          <option value="gflags" />
+          <option value="giflib" />
+          <option value="glog" />
+          <option value="keyutils" />
+          <option value="ld_impl_linux-64" />
+          <option value="lerc" />
+          <option value="libabseil" />
+          <option value="libarrow" />
+          <option value="libarrow-acero" />
+          <option value="libarrow-compute" />
+          <option value="libarrow-dataset" />
+          <option value="libarrow-substrait" />
+          <option value="libblas" />
+          <option value="libbrotlicommon" />
+          <option value="libbrotlidec" />
+          <option value="libbrotlienc" />
+          <option value="libcblas" />
+          <option value="libcrc32c" />
+          <option value="libcurl" />
+          <option value="libdeflate" />
+          <option value="libedit" />
+          <option value="libev" />
+          <option value="libevent" />
+          <option value="libexpat" />
+          <option value="libffi" />
+          <option value="libgcc" />
+          <option value="libgcc-ng" />
+          <option value="libgfortran" />
+          <option value="libgfortran5" />
+          <option value="libgomp" />
+          <option value="libgoogle-cloud" />
+          <option value="libgoogle-cloud-storage" />
+          <option value="libgrpc" />
+          <option value="libharfbuzz" />
+          <option value="libjpeg-turbo" />
+          <option value="liblapack" />
+          <option value="liblzma" />
+          <option value="libnghttp2" />
+          <option value="libnsl" />
+          <option value="libopenblas" />
+          <option value="libopentelemetry-cpp" />
+          <option value="libopentelemetry-cpp-headers" />
+          <option value="libparquet" />
+          <option value="libpng" />
+          <option value="libprotobuf" />
+          <option value="libpsl" />
+          <option value="libre2-11" />
+          <option value="libsqlite" />
+          <option value="libssh2" />
+          <option value="libstdcxx" />
+          <option value="libstdcxx-ng" />
+          <option value="libthrift" />
+          <option value="libutf8proc" />
+          <option value="libuuid" />
+          <option value="libxcrypt" />
+          <option value="libxml2" />
+          <option value="libxml2-16" />
+          <option value="lz4-c" />
+          <option value="nlohmann_json" />
+          <option value="numpy" />
+          <option value="openjdk" />
+          <option value="openssl" />
+          <option value="orc" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="pcre2" />
+          <option value="prometheus-cpp" />
+          <option value="pthread-stubs" />
+          <option value="py4j" />
+          <option value="pyarrow" />
+          <option value="pyarrow-core" />
+          <option value="python-dateutil" />
+          <option value="python-tzdata" />
+          <option value="python_abi" />
+          <option value="pytz" />
+          <option value="re2" />
+          <option value="s2n" />
+          <option value="setuptools" />
+          <option value="six" />
+          <option value="snappy" />
+          <option value="tk" />
+          <option value="wheel" />
+          <option value="cairo" />
+          <option value="libglib" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStringConversionWithoutDunderMethodInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredTypes">
+        <list>
+          <option value="types.NoneType" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
